@@ -1,0 +1,358 @@
+{
+  "gammes": [
+    {
+      "id": "g1",
+      "name": "Medipro 1",
+      "color": "#0066b3"
+    },
+    {
+      "id": "g2",
+      "name": "Medipro 2",
+      "color": "#009688"
+    },
+    {
+      "id": "g3",
+      "name": "Therapharm 1",
+      "color": "#e91e63"
+    },
+    {
+      "id": "g4",
+      "name": "Therapharm 2",
+      "color": "#03a9f4"
+    },
+    {
+      "id": "g5",
+      "name": "Gyneco",
+      "color": "#03a9a1"
+    }
+  ],
+  "categories": [
+    {
+      "id": "c1",
+      "name": "Formations & Argumentaires",
+      "color": "#03a9f4"
+    },
+
+    {
+      "id": "c3",
+      "name": "Supports Promotionnels",
+      "color": "#e91e63"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Kalmatonine® Fast",
+      "productImg": "kalmatonine",
+      "category": "Stress & anxiété",
+      "gammes": ["g2"]
+    },
+    {
+      "id": "p2",
+      "name": "Ainat® Protect",
+      "productImg": "ainat_protect",
+      "category": "Rhumatologie",
+      "gammes": ["g4"]
+    },
+    {
+      "id": "p3",
+      "name": "Maxitone® vitamine C",
+      "productImg": "maxitone_vitc",
+      "category": "Rhumatologie",
+      "gammes": ["g3"]
+    },
+    {
+      "id": "p4",
+      "name": "Nobios®",
+      "productImg": "nobios",
+      "category": "Rhumatologie",
+      "gammes": ["g1"]
+    },
+    {
+      "id": "p5a",
+      "name": "Gingerax® Sirop",
+      "productImg": "gingerax_sirop",
+      "category": "Rhumatologie",
+      "gammes": ["g4"]
+    },
+    {
+      "id": "p5b",
+      "name": "Gingerax® Comprimés",
+      "productImg": "gingerax_comprimes",
+      "category": "Rhumatologie",
+      "gammes": ["g5"]
+    },
+    {
+      "id": "p5c",
+      "name": "Gingerax® Gouttes buvables",
+      "productImg": "gingerax_gouttes",
+      "category": "Rhumatologie",
+      "gammes": ["g4"]
+    },
+    {
+      "id": "p6",
+      "name": "Candidax® Ovules",
+      "productImg": "candidax_ovules",
+      "category": "Rhumatologie",
+      "gammes": ["g5"]
+    },
+    {
+      "id": "p7",
+      "name": "Neovizinc®",
+      "productImg": "neovizinc",
+      "category": "Rhumatologie",
+      "gammes": ["g2"]
+    },
+    {
+      "id": "p8",
+      "name": "Neuraxone®",
+      "productImg": "neuraxone",
+      "category": "Rhumatologie",
+      "gammes": ["g2"]
+    },
+    {
+      "id": "p9",
+      "name": "Tossedyl®",
+      "productImg": "tossedyl",
+      "category": "Rhumatologie",
+      "gammes": ["g2"]
+    },
+    {
+      "id": "p10",
+      "name": "Fitorax® Comprimés à sucer",
+      "productImg": "fitorax_cps",
+      "category": "Rhumatologie",
+      "gammes": ["g4"]
+    },
+    {
+      "id": "p11",
+      "name": "Fitopolis® Comprimés à sucer",
+      "productImg": "fitopolis_cps",
+      "category": "Rhumatologie",
+      "gammes": ["g4"]
+    },
+    {
+      "id": "p12",
+      "name": "Rectolax® Lavement",
+      "productImg": "rectolax_lavement",
+      "category": "Rhumatologie",
+      "gammes": ["g1"]
+    },
+    {
+      "id": "p13",
+      "name": "Ircolax®",
+      "productImg": "ircolax",
+      "category": "Rhumatologie",
+      "gammes": ["g3"]
+    },
+    {
+      "id": "p14",
+      "name": "Curaler® Spray nasal",
+      "productImg": "curaler_spray_nasal",
+      "category": "Rhumatologie",
+      "gammes": ["g3"]
+    },
+    {
+      "id": "p15",
+      "name": "Nurax® Tonus",
+      "productImg": "nurax_tonus",
+      "category": "Rhumatologie",
+      "gammes": ["g1"]
+    },
+    {
+      "id": "p16",
+      "name": "Theramag® 375",
+      "productImg": "theramag_375",
+      "category": "Rhumatologie",
+      "gammes": ["g4"]
+    }
+  ],
+  "elements": [
+    {
+      "id": "e1",
+      "productId": "p2",
+      "name": "Bloc Carnet",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "ainat_protect_Bloc_Carnet.png"
+    },
+    {
+      "id": "e2",
+      "productId": "p2",
+      "name": "Bloc Chevalet",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "ainat_protect_Bloc_Chevalet.png"
+    },
+    {
+      "id": "e3",
+      "productId": "p2",
+      "name": "Boîte Gants",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "ainat_protect_Boite_gants.png"
+    },
+    {
+      "id": "e4",
+      "productId": "p2",
+      "name": "Gel Echo",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "ainat_protect_Gel_Echo.png"
+    },
+    {
+      "id": "e5",
+      "productId": "p2",
+      "name": "Pyramide",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "ainat_protect_Pyramide.jpg"
+    },
+    {
+      "id": "e6",
+      "productId": "p2",
+      "name": "Stylos",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "ainat_protect_Stylos.png"
+    },
+    {
+      "id": "e7",
+      "productId": "p2",
+      "name": "Formation Marketing AINAT Protect",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "Formation_Marketing_AINAT_Protect.pdf"
+    },
+    {
+      "id": "e8",
+      "productId": "p2",
+      "name": "Formation Médicale AINAT Protect",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "Formation_Médicale_AINAT_Protect.pdf"
+    },
+    {
+      "id": "e9",
+      "productId": "p2",
+      "name": "Formation Produit AINAT Protect",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "Formation_Produit_AINAT_Protect.pdf"
+    },
+    {
+      "id": "e10",
+      "productId": "p1",
+      "name": "Argumentaire Kalmatonine",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "Argumentaire_Kalmatonine.pdf"
+    },
+    {
+      "id": "e11",
+      "productId": "p1",
+      "name": "ADV",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine_ADV.png"
+    },
+    {
+      "id": "e12",
+      "productId": "p1",
+      "name": "Affiche",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine_Affiche.png"
+    },
+    {
+      "id": "e13",
+      "productId": "p1",
+      "name": "Bloc Papier",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine_Bloc_Papier.png"
+    },
+    {
+      "id": "e14",
+      "productId": "p1",
+      "name": "Boite Mouchoir",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine_Boite_Mouchoir.png"
+    },
+    {
+      "id": "e15",
+      "productId": "p1",
+      "name": "Fiche Poso",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine_Fiche_Poso.png"
+    },
+
+    {
+      "id": "e18",
+      "productId": "p1",
+      "name": "Presentoir",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine_Presentoir.jpg"
+    },
+
+    {
+      "id": "e20",
+      "productId": "p1",
+      "name": "Reglettes",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine_Reglettes.png"
+    },
+    {
+      "id": "e21",
+      "productId": "p1",
+      "name": "TAP",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine_TAP.png"
+    },
+    {
+      "id": "e22",
+      "productId": "p1",
+      "name": "Formation Kalmatonine",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "formation_kalmatonine.pdf"
+    },
+    {
+      "id": "e23",
+      "productId": "p3",
+      "name": "Formation Produit maxitone_vitc",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "Formation_Maxitone_VIT_C.pdf"
+    },
+    {
+      "id": "e24",
+      "productId": "p4",
+      "name": "Formation Nobios",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "formation_nobios.pdf"
+    },
+    {
+      "id": "e25",
+      "productId": "p4",
+      "name": "Argumentaire Nobios",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "Argumentaire_nobios.pdf"
+    },
+    {
+      "id": "e26",
+      "productId": "p12",
+      "name": "Argumentaire Rectolax Lavement",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "Argumentaire_rectolax_lavement.pdf"
+    }
+  ]
+}

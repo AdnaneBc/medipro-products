@@ -1,0 +1,217 @@
+{
+  "gammes": [
+    {
+      "id": "g1",
+      "name": "Medipro 1",
+      "color": "#0066b3"
+    },
+    {
+      "id": "g2",
+      "name": "Medipro 2",
+      "color": "#009688"
+    },
+    {
+      "id": "g3",
+      "name": "Therapharm 1",
+      "color": "#e91e63"
+    },
+    {
+      "id": "g4",
+      "name": "Therapharm 2",
+      "color": "#03a9f4"
+    }
+  ],
+  "categories": [
+    {
+      "id": "c1",
+      "name": "Formations & Argumentaires",
+      "color": "#03a9f4"
+    },
+
+    {
+      "id": "c3",
+      "name": "Supports Promotionnels",
+      "color": "#e91e63"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Kalmatonine® Fast",
+      "productImg": "kalmatonine/kalmatonine",
+      "category": "Stress & anxiété",
+      "gammes": ["g1"]
+    },
+    {
+      "id": "p2",
+      "name": "Ainat® Protect",
+      "productImg": "ainat_protect/ainat_protect",
+      "category": "Rhumatologie",
+      "gammes": ["g1"]
+    }
+  ],
+  "elements": [
+    {
+      "id": "e1",
+      "productId": "p2",
+      "name": "Bloc Carnet",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "ainat_protect/gadgets/Bloc_Carnet.png"
+    },
+    {
+      "id": "e2",
+      "productId": "p2",
+      "name": "Bloc Chevalet",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "ainat_protect/gadgets/Bloc_Chevalet.png"
+    },
+    {
+      "id": "e3",
+      "productId": "p2",
+      "name": "Boîte Gants",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "ainat_protect/gadgets/Boite_gants.png"
+    },
+    {
+      "id": "e4",
+      "productId": "p2",
+      "name": "Gel Echo",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "ainat_protect/gadgets/Gel_Echo.png"
+    },
+    {
+      "id": "e5",
+      "productId": "p2",
+      "name": "Pyramide",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "ainat_protect/gadgets/Pyramide.jpg"
+    },
+    {
+      "id": "e6",
+      "productId": "p2",
+      "name": "Stylos",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "ainat_protect/gadgets/Stylos.png"
+    },
+    {
+      "id": "e7",
+      "productId": "p2",
+      "name": "Formation Marketing AINAT Protect",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "assets/files/formation/Formation Marketing AINAT Protect.pdf"
+    },
+    {
+      "id": "e8",
+      "productId": "p2",
+      "name": "Formation Médicale AINAT Protect",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "assets/files/formation/Formation Médicale AINAT Protect.pdf"
+    },
+    {
+      "id": "e9",
+      "productId": "p2",
+      "name": "Formation Produit AINAT Protect",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "assets/files/formation/Formation Produit AINAT Protect.pdf"
+    },
+    {
+      "id": "e10",
+      "productId": "p1",
+      "name": "Argumentaire Kalmatonine",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "Argumentaire_Kalmatonine.pdf"
+    },
+    {
+      "id": "e11",
+      "productId": "p1",
+      "name": "ADV",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine/gadgets/ADV.png"
+    },
+    {
+      "id": "e12",
+      "productId": "p1",
+      "name": "Affiche",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine/gadgets/Affiche.png"
+    },
+    {
+      "id": "e13",
+      "productId": "p1",
+      "name": "Bloc Papier",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine/gadgets/Bloc_Papier.png"
+    },
+    {
+      "id": "e14",
+      "productId": "p1",
+      "name": "Boite Mouchoir",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine/gadgets/Boite_Mouchoir.png"
+    },
+    {
+      "id": "e15",
+      "productId": "p1",
+      "name": "Fiche Poso",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine/gadgets/Fiche_Poso.png"
+    },
+
+    {
+      "id": "e18",
+      "productId": "p1",
+      "name": "Presentoir",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine/gadgets/Presentoir.jpg"
+    },
+
+    {
+      "id": "e20",
+      "productId": "p1",
+      "name": "Reglettes",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine/gadgets/Reglettes.png"
+    },
+    {
+      "id": "e21",
+      "productId": "p1",
+      "name": "TAP",
+      "group": "Supports Promotionnels",
+      "type": "img",
+      "fileUrl": "kalmatonine/gadgets/TAP.png"
+    },
+    {
+      "id": "e22",
+      "productId": "p1",
+      "name": "Formation Kalmatonine",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "formation_kalmatonine.pdf"
+    },
+    {
+      "id": "e23",
+      "productId": "p3",
+      "name": "Argumentaire Ainat Protect",
+      "group": "Formations & Argumentaires",
+      "type": "pdf",
+      "fileUrl": "Argumentaire_Ainat_Protect.pdf"
+    }
+  ]
+}
